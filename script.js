@@ -174,7 +174,7 @@
 
     // Load Config, then Init
     config: () => {
-      fetch('./conf.json')
+      fetch('./config.json')
         .then(response => response.json())
         .then(conf => {
           // Store Config
