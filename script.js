@@ -589,7 +589,7 @@
     nfts: () => start.fetch_news(start.c.alchemyURL, "NFTs"),
 
     // Steam Games Home Feed
-    steam_games: () => start.fetch_news(start.c.steamURL, "Steam Games"),
+    steam_games: () => start.fetch_news(start.c."https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=2BEF6D71777D0534AC6FC01A647489BD&steamid=76561198391357688&include_appinfo=1&include_played_free_games=1", "Steam Games"),
 
     // NFT News Summaries
     industry_news: () => start.fetch_news(start.c.nftNewsURL, "Industry News"),
