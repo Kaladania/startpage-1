@@ -176,10 +176,10 @@
     config: () => {
       fetch('./config.json')
         .then(response => response.json())
-        .then(conf => {
+        .then(config => {
           // Store Config
-          start.c = conf;
-          start.au = conf.artThumbURL;
+          start.c = config;
+          start.au = config.artThumbURL;
           // Init
           start.init();
         })
