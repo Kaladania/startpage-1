@@ -19,7 +19,7 @@
   "nytURL": "<https://website.domain>",
   "poeURL": "<https://website.domain>",
   "podURL": "<https://website.domain>",
-  "redditURL": "<https://website.domain>",
+  "redditURL": "https://www.reddit.com/r/popular/?geo_filter=GLOBAL",
   "summaryURL": "<https://website.domain>",
   "steamURL": "https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=2BEF6D71777D0534AC6FC01A647489BD&steamid=76561198391357688&include_appinfo=1&include_played_free_games=1",
   "techmemeURL": "<https://website.domain>",
