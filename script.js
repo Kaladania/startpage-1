@@ -174,12 +174,12 @@
 
     // Load Config, then Init
     config: () => {
-      fetch('./config.json')
+      fetch('./conf.json')
         .then(response => response.json())
-        .then(config => {
+        .then(conf => {
           // Store Config
-          start.c = config;
-          start.au = config.artThumbURL;
+          start.c = conf;
+          start.au = conf.artThumbURL;
           // Init
           start.init();
         })
